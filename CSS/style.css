@@ -17,7 +17,7 @@ img{
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -35,6 +35,8 @@ img{
     background-color: #255EE9;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    padding: 0px;
+    margin: 0px;
 }
 
 .bg-white{
@@ -51,8 +53,21 @@ img{
 
 
 .container-main{
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container-main h1{
+    font-size: 46px;
+    margin-bottom: 2rem;
+}
+
+.container-main p{
+    font-size: 18px;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 section{
@@ -61,11 +76,17 @@ section{
 }
 
 .spacing-list{
-    margin: 0 16px;
+    margin: 0 18px;
 }
 
 .item{
     color: #FFFFFF;
+}
+
+.spacing-main{
+    flex-basis: calc((100%/12)*8);
+    min-height: 300px;
+    padding: 120px 0; 
 }
 
 /* ----------ELEMENTS-------- */
@@ -80,20 +101,31 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   }
+}
+
+.arrowdown{
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block;
+}
 
 /* BOTTONI */
 
 button{
     border: 0px solid;
     border-radius: 50rem;
-    line-height: 2rem;
-    padding: 0 12px;
+    line-height: 3rem;
+    padding: 0 18px;
+    font-size:  20px;
+    font-weight: 400;
+    margin: 0 8px;
 }
 
 header .button{
     font-size:  14px;
     font-weight: 400;
+    line-height: 2.2rem;
+    padding: 0 14px;
 }
 
 .primary{
@@ -102,10 +134,13 @@ header .button{
 
 .secondary{
     background-color:#23272A;
+    color:#FFFFFF;
+
 }
 
 .alternative{
     background-color: #7289DA;
+
 }
 
 
@@ -241,13 +276,13 @@ footer .debug{
     border: 2px dashed rgb(255, 226, 5);
 }
 
-.col8{
+/* .col8{
     flex-basis: calc((100%/12)*8);
     background-color: blueviolet;
     border: 2px dashed violet;
     min-height: 300px;
     padding: 12px; 
-}
+} */
 
 .col12{
     flex-basis: calc((100%/12)*12);
