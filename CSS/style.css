@@ -17,7 +17,7 @@ img{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -64,14 +64,14 @@ img{
     margin-bottom: 2rem;
 }
 
-.container-main p{
+p{
     font-size: 18px;
     line-height: 1.8rem;
     margin-bottom: 1rem;
 }
 
 section{
-    padding: 20px;
+    margin: 72px 0;
     min-height: 200px;
 }
 
@@ -84,9 +84,18 @@ section{
 }
 
 .spacing-main{
-    flex-basis: calc((100%/12)*8);
     min-height: 300px;
     padding: 120px 0; 
+}
+
+.spacing-article{
+    min-height: 300px;
+    margin: 36px 0; 
+}
+
+.spacing-article h2{
+    font-size: 46px;
+    margin-bottom: 2rem;
 }
 
 /* ----------ELEMENTS-------- */
@@ -107,6 +116,20 @@ section{
     font-weight: bold;
     font-size: larger;
     display: inline-block;
+}
+
+.row-multicol{
+    flex-direction: row;
+    min-height: 300px;
+    display: flex;
+}
+
+.col4{
+    flex-basis: calc((100%/12)*5);
+}
+
+.col8{
+    flex-basis: calc((100%/12)*7);
 }
 
 /* BOTTONI */
@@ -207,20 +230,20 @@ footer .debug{
 
 
 
-.col3{
+/* .col3{
     flex-direction: row;
     flex-basis: calc((100%/12)*3);
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
     display: flex;
-}
+} */
 
-.main-content{
+/* .main-content{
     background-color: blueviolet;
     border: 2px dashed violet;
     min-height: 300px;
     padding: 12px;
-}
+} */
 
 
 .cta{
@@ -235,12 +258,12 @@ footer .debug{
     align-items: center ;
 }
 
-.row-multicol{
+/* .row-multicol{
     flex-direction: row;
     background-color: blueviolet;
     min-height: 300px;
     display: flex;
-}
+} */
 
 .cta .col{
     padding: 12px;
@@ -255,14 +278,14 @@ footer .debug{
     border: 2px dashed rgb(255, 226, 5);
 }
 
-.col4{
+/* .col4{
     flex-basis: calc((100%/12)*4);
     padding: 12px;
     background-color: yellow;
     border: 2px dashed darkgoldenrod;
-}
+} */
 
-.col5{
+/* .col5{
     flex-basis: calc((100%/12)*5);
     padding: 12px;
     background-color: yellow;
@@ -274,7 +297,7 @@ footer .debug{
     padding: 12px;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
-}
+} */
 
 /* .col8{
     flex-basis: calc((100%/12)*8);
