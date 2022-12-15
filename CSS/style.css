@@ -45,6 +45,7 @@ img{
 
 .bg-grey{
     background-color: #F6F6F6;
+    padding: 72px 0;
 }
 
 .footer{
@@ -122,6 +123,10 @@ section{
     flex-direction: row;
     min-height: 300px;
     display: flex;
+}
+
+.reverse{
+    flex-direction: row-reverse;
 }
 
 .col4{
