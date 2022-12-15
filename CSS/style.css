@@ -52,6 +52,7 @@ h3{
 
 .bg-white{
     background-color: #FFFFFF;
+    padding: 96px 0;
 }
 
 .bg-grey{
@@ -120,8 +121,9 @@ section{
 }
 
 .last{
-    padding: 0px;
+    padding-top: 0px;
     margin: 0px;
+    min-height: 0px;
 }
 
 
@@ -162,6 +164,7 @@ section{
 
 .col4{
     flex-basis: calc((100%/12)*4);
+    padding-right: 96px;
 }
 
 .col5{
@@ -214,6 +217,61 @@ header .button{
 
 
 /* FOOTER STYLE */
+
+footer{
+    color: #fff;
+    padding: 64px 0;
+}
+
+.line{
+    border-top: 1px solid #7289DA;
+    margin-top: 36px;
+}
+
+footer ul{
+    color: #7289DA;
+}
+
+footer li{
+    color: #fff;
+    margin: 16px 0;
+}
+
+
+footer .rowhead{
+    align-items: flex-start ;
+    padding-top: 12px;
+}
+
+footer h3{
+    color: #7289DA;
+    margin-bottom: 4px;
+}
+
+.rowhead.lingua{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer p{
+    margin-bottom: 4px;
+}
+
+.lingua .col{
+    margin-right: 8px;
+}
+
+.bandiera{
+    max-height: 18px;
+}
+
+footer .button{
+    font-size:  14px;
+    font-weight: 400;
+    line-height: 2.2rem;
+    padding: 0 14px;
+    margin: 0px;
+}
 
 
 
